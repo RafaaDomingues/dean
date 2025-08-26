@@ -16,8 +16,9 @@ header {
 }
 
 header img {
-    width:110px;
-    height: 175px;
+    width:175px;
+    height: 110px;
+    object-fit: cover;
 }
 
 header nav ul li a {
