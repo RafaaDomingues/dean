@@ -5,7 +5,10 @@
     --font-botao:"Oswold", sans-serif;
 }
 /*font-family: "Oswald", sans-serif;*/
-header  {
+header {
+    
+}
+header nav ul li {
     display: inline-block;
     border: 10px solid;
     border-radius: 50px;
