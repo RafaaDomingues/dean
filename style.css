@@ -1,5 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap'); /*font-family: "Oswald", sans-serif;*/
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+:root {
+    --fundo-principal:black;
+    --fundo-segundario:silver;
+    --font-botao:"Oswold", sans-serif;
+}
+/*font-family: "Oswald", sans-serif;*/
 header {
     display: inline-block;
     border: 10px solid;
@@ -9,9 +14,16 @@ header {
     margin-right: 145px;
     background-color: silver;
 }
+
+header img {
+    width:110px;
+    height: 175px;
+}
+
 header nav ul li a {
     text-decoration: none;
 }
+
 nav li {
     font-family: "Oswold", sans-serif;
 }
