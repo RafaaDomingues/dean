@@ -4,7 +4,7 @@
     --fundo-principal: black;
     --fundo-segundario: silver;
     --font-botao: "Oswold", sans-serif;
-    --cor-botao: rgb(255, 0, 0);
+    --cor-botao: rgb(254, 49, 49);
 }
 
 /*font-family: "Oswald", sans-serif;*/
@@ -41,10 +41,4 @@ header img {
 
 header nav ul li a {
     text-decoration: none;
-}
-
-header nav li {
-    font-family: var(--font-botao);
-    background-color: var(--fundo-segundario);
-    color: var(--cor-botao);
 }
