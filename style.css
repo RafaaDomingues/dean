@@ -39,6 +39,6 @@ header nav ul li a {
     text-decoration: none;
 }
 
-nav li {
+header nav li {
     font-family: var(--font-botao);
 }
