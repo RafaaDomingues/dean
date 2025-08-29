@@ -45,4 +45,6 @@ header nav ul li a {
 
 header nav li {
     font-family: var(--font-botao);
+    background-color: var(--fundo-segundario);
+    color: var(--cor-botao);
 }
