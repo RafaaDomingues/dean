@@ -2,9 +2,9 @@
 
 :root {
     --fundo-principal: black;
-    --fundo-segundario: silver;
+    --fundo-segundario: #5682B1;
     --font-botao: "Oswold", sans-serif;
-    --cor-botao: rgb(254, 49, 49);
+    --cor-botao: #FFE8DB;
 }
 
 /*font-family: "Oswald", sans-serif;*/
@@ -18,7 +18,7 @@ header {
     gap: 413px;
     width: 100%;
     height: 160px;
-    background-color: rgb(61, 61, 61);
+    background-color: var(--fundo-segundario);
     border: 10px solid;
 
 }
