@@ -75,7 +75,7 @@ main {
     border-radius: 50px;
 }
 
-.esquerda{
+.esquerda img {
     width: 138px;
     height: 137px;
     object-fit: cover;
