@@ -68,8 +68,8 @@ main {
     flex-flow: column;
     align-items: center;
     justify-content: space-around;
-    width: 15%;
-    height: 100%;
+    width: 138px;
+    height: 137px;
     background-color: var(--fundo-segundario);
     border: 10px solid;
     border-radius: 50px;
