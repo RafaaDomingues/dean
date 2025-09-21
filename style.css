@@ -63,8 +63,18 @@ main {
     border: 10px solid;
     border-radius: 50px;
 }
+.esquerda{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 15%;
+    height: 100%;
+    background-color: var(--fundo-segundario);
+    border: 10px solid;
+    border-radius: 50px;
+}
 
-.esquerda,
 .direita{
     display: flex;
     flex-flow: column;
