@@ -77,14 +77,14 @@ main {
     border-radius: 50px;
 }
 
-.dean_1,
-.dean_2 img {
+.esquerda,
+.direita img {
     width: 138px;
     height: 137px;
     object-fit: cover;
 }
 
-.dean_principal {
+.principal {
     width: 950px;
     height: 502px;
     background-color: var(--fundo-segundario);
@@ -92,7 +92,7 @@ main {
     border-radius: 268px;
 }
 
-.dean_principal img {
+.principal img {
     width: 100%;
     height: 100%;
     object-fit: cover;
