@@ -68,11 +68,17 @@ main {
     flex-flow: column;
     align-items: center;
     justify-content: space-around;
-    width: 138px;
-    height: 137px;
+    width: 15%;
+    height: 100%;
     background-color: var(--fundo-segundario);
     border: 10px solid;
     border-radius: 50px;
+}
+
+.esquerda{
+    width: 138px;
+    height: 137px;
+    object-fit: cover;
 }
 
 .direita{
@@ -87,7 +93,6 @@ main {
     border-radius: 50px;
 }
 
-.esquerda,
 .direita img {
     width: 138px;
     height: 137px;
