@@ -59,7 +59,7 @@ main {
     margin: 45px auto 0 auto;
     width: 95%;
     height: 80%;
-    background-color: var(--fundo-principal);
+    background-color: var(--fundo-segundario);
     border: 10px solid;
     border-radius: 50px;
 }
