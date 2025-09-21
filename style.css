@@ -11,103 +11,91 @@
 body {
     background-color: var(--fundo-principal);
 }
-/* Header */
 header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 2rem;
+    justify-content: space-around;
+    gap: 413px;
     width: 100%;
     height: 160px;
-    background: linear-gradient(90deg, #0288d1, #03a9f4);
-    border-bottom: 5px solid black;
-}
+    background-color: var(--fundo-segundario);
+    border: 10px solid;
 
-/* Logo */
-header img {
-    width: 130px;
-    height: 90px;
-    object-fit: cover;
-    border-radius: 15px;
-    border: 3px solid black;
-}
-
-/* Navegação */
-header nav ul {
-    display: flex;
-    gap: 1.5rem;
-    list-style: none;
-    margin: 0;
-    padding: 0;
 }
 
 header nav ul li {
-    border: 3px solid black;
-    border-radius: 25px;
-    padding: 8px 20px;
-    background-color: #0288d1;
-    transition: 0.3s;
+    display: inline-block;
+    border: 10px solid;
+    border-radius: 50px;
+    width: 241px;
+    height: 77px;
+    margin-right: 145px;
+    background-color: var(--fundo-segundario);
 }
 
-header nav ul li:hover {
-    background-color: #03a9f4;
+header img {
+    width: 175px;
+    height: 110px;
+    object-fit: cover;
 }
 
 header nav ul li a {
     text-decoration: none;
-    color: white;
-    font-weight: bold;
 }
 
-/* Main */
+header img {
+    width: 175px;
+    height: 110px;
+    object-fit: cover;
+    border: 10px solid;
+    border-radius: 25px;
+
+}
+
 main {
     display: flex;
+    align-items: center;
     justify-content: space-around;
-    align-items: center;
-    margin: 40px auto;
+    margin: 45px auto 0 auto;
     width: 95%;
-    min-height: 600px;
-    background-color: #121212;
-    border-radius: 20px;
-    padding: 20px;
+    height: 80%;
+    background-color: var(--fundo-principal);
+    border: 10px solid;
+    border-radius: 50px;
 }
 
-/* Lateral esquerda */
-.dean_1 {
+.dean_1,
+.dean_2{
     display: flex;
+    flex-flow: column;
     align-items: center;
-    justify-content: center;
-    width: 20%;
+    justify-content: space-around;
+    width: 15%;
+    height: 100%;
+    background-color: var(--fundo-segundario);
+    border: 10px solid;
+    border-radius: 50px;
 }
 
-/* Imagem central */
+.dean_1,
+.dean_2 img {
+    width: 138px;
+    height: 137px;
+    object-fit: cover;
+}
+
 .dean_principal {
-    width: 55%;
-    height: 500px;
-    border: 5px solid black;
-    border-radius: 20px;
-    overflow: hidden;
+    width: 950px;
+    height: 502px;
+    background-color: var(--fundo-segundario);
+    border: 10px solid;
+    border-radius: 268px;
 }
 
 .dean_principal img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-
-/* Lateral direita */
-.dean_2 {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    align-items: center;
-    width: 20%;
-}
-
-.dean_2 img {
-    width: 100px;
-    height: 130px;
-    object-fit: cover;
-    border-radius: 15px;
-    border: 3px solid black;
+    border-radius: 268px;
+   
 }
