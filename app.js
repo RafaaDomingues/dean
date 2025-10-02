@@ -10,7 +10,7 @@ const img1 = [
     "d6.jpg"
 ];
 
-const imagens2 = [
+const img2 = [
     "d7.jpg",
     "d8.jpg",
     "d9.jpg",
@@ -23,9 +23,9 @@ const imagens2 = [
 function mudarImagens() {
     for (let d = 0; d < imagens.length; d++) {
         if (!trocando) {
-            imagens[d].src = imagens2[d];
+            imagens[d].src = img2[d];
         } else {
-            imagens[d].src = imagens1[i];
+            imagens[d].src = img1[i];
         }
         trcoando = !trocando;
     }
