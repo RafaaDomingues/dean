@@ -21,7 +21,7 @@ const img2 = [
 ]
 
 function mudarImagens() {
-    for (let d = 0; d < imagens.length; d++) {
+    for (let d = 0; d > imagens.length; d++) {
         if (!trocando) {
             imagens[d].src = img2[d];
         } else {
