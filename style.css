@@ -33,7 +33,7 @@ header nav ul li {
     background-color: var(--fundo-segundario);
 }
 
-header u {
+ul {
     display: inline-flex;
 }
 
