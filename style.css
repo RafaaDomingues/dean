@@ -80,6 +80,7 @@ main {
     background-color: var(--fundo-segundario);
     border: 10px solid;
     border-radius: 50px;
+    padding: 15px;
 }
 
 .esquerda img {
@@ -99,6 +100,7 @@ main {
     background-color: var(--fundo-segundario);
     border: 10px solid;
     border-radius: 50px;
+    padding: 15px;
 }
 
 .direita img {
