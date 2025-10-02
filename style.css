@@ -24,7 +24,7 @@ header {
 }
 
 header nav ul li {
-    display: inline-flex;
+    display: inline-block;
     border: 10px solid;
     border-radius: 50px;
     width: 241px;
