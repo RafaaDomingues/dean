@@ -69,7 +69,7 @@ main {
     border-radius: 50px;
     padding: 25px;
 }
-.esquerda{
+.dean1{
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -83,13 +83,13 @@ main {
     padding: 15px;
 }
 
-.esquerda img {
+.dean1 img {
     width: 138px;
     height: 137px;
     object-fit: cover;
 }
 
-.direita{
+.dean2{
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -103,13 +103,13 @@ main {
     padding: 15px;
 }
 
-.direita img {
+.dean2 img {
     width: 138px;
     height: 137px;
     object-fit: cover;
 }
 
-.principal {
+.dean3 {
     width: 950px;
     height: 502px;
     background-color: var(--fundo-segundario);
@@ -117,7 +117,7 @@ main {
     border-radius: 268px;
 }
 
-.principal img {
+.dean3 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
