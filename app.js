@@ -1,11 +1,11 @@
-const img = document.querySelectorAll('img');//seleciona todas as imgs
+const img = document.querySelectorAll('img');
 let trocando = false;
 
 
 function mudarImagens() {
      if (trocando === false) {
         for (let d = 1; d < img.length; d++) {
-            img[d].src = `d${d + 8}.jpg`
+            img[d].src = `d${d + 9}.jpg`
         }
         trocando = true;
     } else {
