@@ -18,4 +18,3 @@ function mudarImagens() {
 
 }
    
-document.getElementById('botao').addEventListener('click', mudarImagens)
