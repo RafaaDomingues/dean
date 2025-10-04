@@ -24,7 +24,6 @@ header {
     align-items: center;
     justify-content: space-around;
     gap: 100px;
-    width: 99%;
     height: 160px;
     background-color: var(--fundo-segundario);
     border: 10px solid;
